@@ -70,11 +70,11 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
             ">
               <ReactMarkdown
                 components={{
-                  code({ node, inline, className, children, ...props }) {
+                  code({ className, children, ...props }) {
                     const match = /language-(\w+)/.exec(className || "");
                     const language = match ? match[1] : "";
                     
-                    if (!inline && language === "mermaid") {
+                    if (match && language === "mermaid") {
                       return <Mermaid chart={String(children).replace(/`+/g, "")} />;
                     }
 
