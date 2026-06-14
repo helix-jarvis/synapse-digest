@@ -10,8 +10,8 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function PostPage({ params }: { params: { id: string } }) {
-  const { id } = params;
+export default async function PostPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
   const postData = await getPostData(id);
 
   // Simple reading time estimation
