@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Calendar, Clock, ChevronLeft, Tag } from "lucide-react";
 import Mermaid from "@/components/Mermaid";
 import PostClientDetails from "@/components/PostClientDetails";
+import CodeBlock from "@/components/CodeBlock";
 
 export async function generateStaticParams() {
   const posts = getSortedPostsData();
@@ -78,6 +79,10 @@ export default async function PostPage({ params }: { params: Promise<{ id: strin
                       
                       if (match && language === "mermaid") {
                         return <Mermaid chart={String(children).replace(/`+/g, "")} />;
+                      }
+                      
+                      if (className && className.startsWith('language-')) {
+                        return <CodeBlock className={className}>{String(children).replace(/\n$/, "")}</CodeBlock>;
                       }
                       
                       return (
