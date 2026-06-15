@@ -1,3 +1,9 @@
+---
+title: "The New Frontier: OpenAI, Anthropic, and Google Launch Next-Gen Models Simultaneously"
+date: "2026-06-15"
+summary: "Exploring the latest advancements in frontier model capabilities and safety."
+category: "Research"
+---
 # The New Frontier: OpenAI, Anthropic, and Google Launch Next-Gen Models Simultaneously
 
 **Date:** June 15, 2026
