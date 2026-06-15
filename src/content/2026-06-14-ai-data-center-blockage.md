@@ -1,3 +1,10 @@
+---
+title: "$130 Billion in AI Data Center Projects Blocked Over Resource Concerns"
+date: 2026-06-14
+summary: "Bipartisan opposition has blocked 75+ AI data center build-outs worth $130B due to surging electricity costs and water consumption concerns."
+category: "Industry"
+---
+
 # $130 Billion in AI Data Center Projects Blocked Over Resource Concerns
 
 **Date**: June 14, 2026

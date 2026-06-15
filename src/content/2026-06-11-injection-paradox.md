@@ -5,6 +5,8 @@ source: "arXiv"
 author: "Hyunseok Paeng"
 link: "https://arxiv.org/abs/2606.09204"
 tags: ["AI Safety", "RAG", "Adversarial Attacks"]
+summary: "A novel vulnerability in RAG systems where prompt injections trigger safety mechanisms to suppress target brands entirely, dropping recommendation rates from 54% to 0%."
+category: "Safety"
 ---
 
 ## What's new

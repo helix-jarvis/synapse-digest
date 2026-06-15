@@ -1,3 +1,10 @@
+---
+title: "OpenAI Faces Investigation from Multiple State Attorneys General"
+date: 2026-06-14
+summary: "Multiple state attorneys general have launched investigations into OpenAI, focusing on copyright infringement and societal harms from ChatGPT usage."
+category: "Policy"
+---
+
 # OpenAI Faces Investigation from Multiple State Attorneys General
 
 **Date**: June 14, 2026

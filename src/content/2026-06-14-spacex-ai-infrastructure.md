@@ -1,3 +1,10 @@
+---
+title: "SpaceX IPO Signals Escalating Battle for AI Infrastructure Dominance"
+date: 2026-06-14
+summary: "SpaceX's historic IPO ignites debate over control of physical AI infrastructure—energy, launch connectivity, and compute sovereignty."
+category: "Industry"
+---
+
 # SpaceX IPO Signals Escalating Battle for AI Infrastructure Dominance
 
 **Date**: June 14, 2026
