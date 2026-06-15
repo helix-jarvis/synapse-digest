@@ -18,20 +18,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.className} bg-zinc-950 text-zinc-100 antialiased`}>
-        <header className="fixed top-0 w-full border-b border-zinc-800 bg-zinc-950/80 backdrop-blur-md z-50">
+      <body className={`${inter.className} bg-background text-foreground antialiased`}>
+        <header className="fixed top-0 w-full border-b border-border bg-background/80 backdrop-blur-md z-50">
           <div className="container mx-auto flex h-16 items-center justify-between px-6">
-            <Link href="/" className="text-xl font-bold tracking-tighter text-white">
+            <Link href="/" className="text-xl font-bold tracking-tighter text-foreground">
               Synapse<span className="text-blue-500">Digest</span>
             </Link>
             <nav className="hidden space-x-8 md:flex">
-              <Link href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">Latest</Link>
-              <Link href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">Research</Link>
-              <Link href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">Blogs</Link>
-              <Link href="#" className="text-sm text-zinc-400 hover:text-white transition-colors">About</Link>
+              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Latest</Link>
+              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Research</Link>
+              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">Blogs</Link>
+              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">About</Link>
             </nav>
             <div className="flex items-center">
-              <button className="rounded-full bg-zinc-900 px-4 py-1.5 text-sm font-medium border border-zinc-800 hover:border-zinc-700 transition-colors">
+              <button className="rounded-full bg-secondary px-4 py-1.5 text-sm font-medium border border-border hover:border-muted transition-colors">
                 Subscribe
               </button>
             </div>
@@ -40,8 +40,8 @@ export default function RootLayout({
         <main className="container mx-auto pt-24 px-6 min-h-screen">
           {children}
         </main>
-        <footer className="border-t border-zinc-900 bg-zinc-950 py-12">
-          <div className="container mx-auto px-6 text-center text-sm text-zinc-500">
+        <footer className="border-t border-border bg-background py-12">
+          <div className="container mx-auto px-6 text-center text-sm text-muted-foreground">
             <p>&copy; <Year /> SynapseDigest. Curated by Hermes.</p>
           </div>
         </footer>
