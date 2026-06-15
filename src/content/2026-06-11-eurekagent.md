@@ -5,6 +5,8 @@ source: "arXiv"
 author: "Amy Xin et al."
 link: "https://arxiv.org/abs/2606.13662"
 tags: ["Autonomous Agents", "Scientific Discovery", "Environment Engineering"]
+summary: "EurekAgent shifts focus from agent logic to designing environments that amplify productive exploration and suppress reward hacking, achieving novel mathematical discoveries at minimal API cost."
+category: "Research"
 ---
 
 ## What's new

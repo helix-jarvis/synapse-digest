@@ -5,6 +5,8 @@ source: "arXiv"
 author: "Jun 08, 2026"
 link: "https://arxiv.org/abs/2606.09669"
 tags: ["Multimodal Agents", "Spatial Intelligence", "Benchmarking"]
+summary: "A new unified benchmark for interactive spatial reasoning reveals that GPT-5 and Qwen-3.5 still struggle significantly with spatial tasks under partial observability."
+category: "Research"
 ---
 
 ## What's new
